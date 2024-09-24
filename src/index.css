@@ -1,0 +1,130 @@
+/* .card{
+    height: 300px;
+    width: 250px;
+} */
+
+
+.btn{
+    width: 100%;
+}
+
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card-hover:hover {
+    transform: scale(1.05); /* Slightly enlarges the card on hover */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Adds a shadow on hover */
+  }
+
+
+  .text-end div {
+    text-align: center; /* Centers the text below the icons */
+  }
+
+ 
+
+  .nav-link.changeble {
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .nav-link.changeble:hover {
+    color: #007bff; /* Change to your desired hover color */
+    transform: scale(1.05); /* Optional: adds a slight scaling effect */
+  }
+
+
+
+/* Login Background */
+.login-background {
+    background-image: url('public/backgrund.avif'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  /* Login Container */
+  .login-container {
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0); 
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+
+  .login-container:hover{
+    border-color: goldenrod;
+  }
+  
+  /* Input Fields */
+  .login-container input {
+    padding: 15px;
+    width: 100%;
+    max-width: 300px; /* Maximum width */
+    margin: 10px 0; /* Space between inputs */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Remove outline on focus */
+    font-weight: bold;
+  }
+  
+  /* Buttons */
+  .login-container button {
+    padding: 10px 15px;
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #ff6f61; /* Button color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .login-container button:hover {
+    background-color: #e65c50; /* Darker shade on hover */
+  }
+  
+
+
+
+
+  /*heading-dropdown*/
+
+  .nav-item.dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0;
+    min-width: 150px;
+    z-index: 1000;
+  }
+  
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-item {
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: block;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f1f1f1;
+  }
+  

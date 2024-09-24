@@ -1,0 +1,9 @@
+.myntra-logo {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* This will maintain the aspect ratio */
+  }
+
+.heading-name{
+    font-size: 20px;
+}
+

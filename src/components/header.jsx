@@ -5,7 +5,7 @@ import { MdOutlineShoppingBag } from "react-icons/md";
 const Header = ({ bagItemCount, onBagClick }) => {
   return (
     <header
-      className="p-3 text-bg-white"
+      className="p-3 text-bg-dark"
       style={{ width: "100vw", height: "80px", marginBottom: "50px" }}
     >
       <div className="container-fluid">

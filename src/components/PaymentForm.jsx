@@ -66,7 +66,7 @@ const PaymentForm = ({ totalAmount, onPaymentSuccess }) => {
                 <div className="mb-3">
                   <label htmlFor="expiry" className="form-label">Expiry Date</label>
                   <input
-                    type="text"
+                    type="date"
                     className="form-control"
                     id="expiry"
                     value={expiry}

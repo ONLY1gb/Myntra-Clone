@@ -37,7 +37,7 @@
 
 /* Login Background */
 .login-background {
-    background-image: url('public/backgrund.avif'); 
+    background-image: url('/backgrund.avif'); 
     background-size: cover; 
     background-position: center; 
     height: 100vh; 

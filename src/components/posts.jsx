@@ -4,40 +4,40 @@ const Posts = ({ onAddToBag }) => {
         id: 1,
         name: "H & M Shirt Style Top",
         price: 719,
-        image: "public/shopping_1.webp",
+        image: "/shopping_1.webp",
       },
       {
         id: 2,
         name: "ALLEN SOLLY Casual Shirt",
         price: 799,
-        image: "public/shopping_2.webp",
+        image: "/shopping_2.webp",
       },
       {
         id: 3,
         name: "RARE RABBIT Pure Cotton",
         price: 889,
-        image: "public/shopping_8.webp",
+        image: "/shopping_8.webp",
       },
 
       {
         id: 3,
         name: "HIGHLANDER  Pure Cotton",
         price: 999,
-        image: "public/shopping_4.webp",
+        image: "/shopping_4.webp",
       },
 
       {
         id: 3,
         name: "FOREVER 21 Pure Cotton",
         price: 529,
-        image: "public/shopping_5.webp",
+        image: "/shopping_5.webp",
       },
 
       {
         id: 3,
         name: "PETER ENGLAND Pure Cotton",
         price: 529,
-        image: "public/shopping_6.webp",
+        image: "/shopping_6.webp",
       },
 
       // Add more products as needed

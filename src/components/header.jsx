@@ -12,7 +12,7 @@ const Header = ({ bagItemCount, onBagClick }) => {
         <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <a href="#">
             <img
-              src="public/myntra.png"
+              src="/myntra.png"
               alt="Myntra Logo"
               className="myntra-logo"
               style={{ width: "150px", height: "auto", marginRight: "25px" }}
